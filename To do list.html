@@ -1,25 +1,136 @@
 <!doctype html>
 <html>
+
 <head>
-    <title> Everyday To do list</title>
+    <title> Calender / To do list</title>
+    <style>
+    h1{
+        text-align: center;
+        border-bottom: 2px black solid;
+    }
+    table { border-collapse: collapse;}
+    td { border:1px solid gray; padding: 1px; width: 120px; height: 100px;}
+    th { background-color: #dddddd; border:1px solid black; font-weight: bold;}
+    td:nth-child(1), th:nth-child(1) {color:red;}
+    td:nth-last-child(1), th:nth-last-child(1) {color:blue;}
+    div {
+        vertical-align: top;
+    }
+    tbody {
+        vertical-align: top;
+    }
+    .class-date {
+        background-color: #F3F781;
+    }
+    .Working {
+        font-size: 10px;
+        color: #04B4AE;
+    }
+    .holiday {
+        font-size: 10px;
+        color: red;
+    
+    }
+</style>
 </head>
+
 <body>
-<h1> To do list</h1>
-<h2> 2024.01.27 해야 할 일</h2>
-html 강의 5개씩 듣기  <input type="checkbox">
-<br>
-데미안 책 읽기  <input type="checkbox">
-<br>
-영어공부 - 넷플릭스로 슈가대디 무자막  <input type="checkbox">
-<br>
-필사 <input type="checkbox" >
-<p>
+    <h1>2월</h1>
+    <table>
+        <tr>
+            <th>일</th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th>
+            <th>금</th>
+            <th>토</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td class="class-date">2
+                    <span class="Working">임원진 회식
+                    </span>
+                </td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td class="class-date">4
+                    <span class="Working">헬퍼 선발
+                    </span>
+                </td>
+                <td class="class-date">5
+                    <span class="Working">승찬
+                        
+                    </span>
+                </td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9
+                    <span class="holiday">설날 연휴</span>
+                </td>
+                <td>10
+                    <span class="holiday"> 설날</span>
+                </td>
+            </tr>
+            <tr>
+                <td>11
+                    <span class="holiday">설날 연휴</span>
+                </td>
+                <td>12
+                    <span class="holiday">대체 휴일</span>
+                </td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td class="class-date">16
+                    <span class="Working">수강신청</span>
+                </td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td class="class-date">29
+                    <span class="Working">총학생회 새터</span>
+                </td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        </table>
+        <br>   <br>
+        
 
-</p>
+    <h1> Everyday To do list </h1>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o1IrDC9sQoU?si=dDoHRB6NbR6YjKiQ" title="YouTube video player" frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    html 강의 5개씩 듣기 <input type="checkbox">  <br>
+    데미안 책 읽기 <input type="checkbox"> <br>
+    영어공부<input type="checkbox"> <br>
+    필사 <input type="checkbox">
+    <p></p>
 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/o1IrDC9sQoU?si=dDoHRB6NbR6YjKiQ"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
 
 </body>
 </html>
